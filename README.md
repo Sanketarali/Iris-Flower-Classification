@@ -12,11 +12,14 @@ numpy library<br>
 
 <h3>let’s have a look at the first five rows of this dataset:</h3>
 data.head()<br>
-![result](https://github.com/Sanketarali/Iris-Flower-Classification/blob/main/Screenshot%20(19).png)<br>
+
+![Screenshot (19)](https://user-images.githubusercontent.com/110754364/235334893-272980ca-a9b9-4df4-9a3c-2ee521580231.png)
 
 <h3>let's check for null values</h3>
-data.isnull().sum()
-![result]()
+data.isnull().sum()<br>
+
+![Screenshot (18)](https://user-images.githubusercontent.com/110754364/235334953-f23a1bce-fc5b-4e5f-b3d9-1a52039ba67a.png)
+
 
 <h3>let's check for the size of the dataset</h3>
 data.shape<br>
@@ -24,6 +27,8 @@ data.shape<br>
 
 <h3>let’s have a look at the descriptive statistics of this dataset:</h3>
 data.describe()<br>
+
+![Screenshot (22)](https://user-images.githubusercontent.com/110754364/235334956-e7e34e3d-0eb6-41b7-8ca6-beca0dcdbb95.png)
 
 <h3>The target labels of this dataset are present in the species column, let’s have a quick look at the target labels:</h3>
 data['species'].unique()<br>
