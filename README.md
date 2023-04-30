@@ -12,6 +12,7 @@ numpy library<br>
 
 <h3>let’s have a look at the first five rows of this dataset:</h3>
 data.head()<br>
+![result](https://github.com/Sanketarali/Iris-Flower-Classification/blob/main/Screenshot%20(19).png)<br>
 
 <h3>let's check for null values</h3>
 data.isnull().sum()
